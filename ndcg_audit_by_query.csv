@@ -1,0 +1,11 @@
+Query,Method,nDCG_at_10
+AI for early disease detection,BM25,0.35620718710802235
+AI for early disease detection,Semantic (MiniLM + FAISS),0.6182885020492785
+AI-based personalized learning,BM25,0.9610742864774044
+AI-based personalized learning,Semantic (MiniLM + FAISS),0.9747429528567878
+Deep learning for climate prediction,BM25,0.0
+Deep learning for climate prediction,Semantic (MiniLM + FAISS),1.0
+Explainable AI for cybersecurity,BM25,0.0
+Explainable AI for cybersecurity,Semantic (MiniLM + FAISS),0.0
+Machine learning for crop disease prediction,BM25,0.4118338404354352
+Machine learning for crop disease prediction,Semantic (MiniLM + FAISS),0.9378773695257354

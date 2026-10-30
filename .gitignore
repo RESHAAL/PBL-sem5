@@ -1,0 +1,13 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.streamlit/secrets.toml
+models/*.pkl
+models/*.bin
+models/*.faiss
+.env
+.venv/
+__pycache__/
+*.pyc

@@ -1,0 +1,11 @@
+Query,Method,mean,std
+AI for early disease detection,BM25,0.2479000249877572,0.01952137407134802
+AI for early disease detection,Semantic (MiniLM + FAISS vectors),0.017619994468986988,0.0027940724151540655
+AI-based personalized learning,BM25,0.19783999305218458,0.020137469399942737
+AI-based personalized learning,Semantic (MiniLM + FAISS vectors),0.01626000739634037,0.0012401707230340427
+Deep learning for climate prediction,BM25,0.2722399774938822,0.015174068356737019
+Deep learning for climate prediction,Semantic (MiniLM + FAISS vectors),0.019720010459423065,0.002404590255396266
+Explainable AI for cybersecurity,BM25,0.32110000029206276,0.004166565057240358
+Explainable AI for cybersecurity,Semantic (MiniLM + FAISS vectors),0.034159980714321136,0.0019385246848712245
+Machine learning for crop disease prediction,BM25,0.47450000420212746,0.018995134480221738
+Machine learning for crop disease prediction,Semantic (MiniLM + FAISS vectors),0.037859962321817875,0.005035696872220404

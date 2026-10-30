@@ -1,0 +1,32 @@
+Query,Domain,Method,Rank,Paper_ID,Title,Relevant_current
+AI for early disease detection,Healthcare,BM25,5,W4410079576,"Adoption of artificial intelligence in healthcare: survey of health system priorities, successes, and challenges",0
+AI for early disease detection,Healthcare,BM25,6,W3124926562,Artificial intelligence in sepsis early prediction and diagnosis using unstructured data in healthcare,1
+AI for early disease detection,Healthcare,BM25,7,W2997569720,Artificial Intelligence in Healthcare: Review and Prediction Case Studies,0
+AI for early disease detection,Healthcare,BM25,8,W3029881688,Sex and gender differences and biases in artificial intelligence for biomedicine and healthcare,0
+AI for early disease detection,Healthcare,BM25,9,W4317254367,"A systematic literature review of artificial intelligence in the healthcare sector: Benefits, challenges, methodologies, and functionalities",0
+AI for early disease detection,Healthcare,BM25,10,W4382058325,Recent Advances of Artificial Intelligence in Healthcare: A Systematic Literature Review,0
+Machine learning for crop disease prediction,Agriculture,BM25,2,W4309637232,Explainable artificial intelligence and interpretable machine learning for agricultural data analysis,0
+Machine learning for crop disease prediction,Agriculture,BM25,3,W4404141860,Artificial Intelligence Tools for the Agriculture Value Chain: Status and Prospects,0
+Machine learning for crop disease prediction,Agriculture,BM25,4,W4285815848,A Review of Using Artificial Intelligence and Machine Learning in Food and Agriculture Industry,0
+Machine learning for crop disease prediction,Agriculture,BM25,5,W4381804394,"Artificial Intelligence in Agriculture: Benefits, Challenges, and Trends",0
+Machine learning for crop disease prediction,Agriculture,BM25,6,W4392754729,"Revolutionizing agriculture with artificial intelligence: plant disease detection methods, applications, and their limitations",1
+Machine learning for crop disease prediction,Agriculture,BM25,7,W4408218335,Artificial Intelligence for Sustainable Agriculture: A Comprehensive Review of AI-Driven Technologies in Crop Production,0
+Machine learning for crop disease prediction,Agriculture,BM25,8,W4394785957,"Transforming Agriculture through Artificial Intelligence: Advancements in Plant Disease Detection, Applications, and Challenges",1
+Machine learning for crop disease prediction,Agriculture,BM25,9,W4390845318,Modern-age Agriculture with Artificial Intelligence: A review emphasizing Crop Yield Prediction,0
+Machine learning for crop disease prediction,Agriculture,BM25,10,W3088154325,Applications of Remote Sensing in Precision Agriculture: A Review,0
+Explainable AI for cybersecurity,Computer Science,BM25,5,W3045742910,Industry 4.0 in Finance: The Impact of Artificial Intelligence (AI) on Digital Financial Inclusion,0
+Explainable AI for cybersecurity,Computer Science,BM25,6,W4226065182,Explainable Artificial Intelligence (XAI),0
+Explainable AI for cybersecurity,Computer Science,BM25,7,W4385059984,A Review of Trustworthy and Explainable Artificial Intelligence (XAI),0
+Explainable AI for cybersecurity,Computer Science,BM25,8,W4229056760,The Promises and Challenges of Artificial Intelligence for Teachers: a Systematic Review of Research,0
+Explainable AI for cybersecurity,Computer Science,BM25,9,W3002093512,"Artificial Intelligence, Values, and Alignment",0
+Explainable AI for cybersecurity,Computer Science,BM25,10,W3093718041,A historical perspective of explainable Artificial Intelligence,0
+AI-based personalized learning,Education,BM25,1,W3128819993,Personalized Education in the Artificial Intelligence Era: What to Expect Next,1
+AI-based personalized learning,Education,BM25,2,W4214890416,Trends on Technologies and Artificial Intelligence in Education for Personalized Learning: Systematic Literature Review,1
+AI-based personalized learning,Education,BM25,4,W3165274928,Potential of Artificial Intelligence for Transformation of the Education System in India.,0
+AI-based personalized learning,Education,BM25,5,W4401727214,Generative Artificial Intelligence in Education: Advancing Adaptive and Personalized Learning,1
+AI-based personalized learning,Education,BM25,9,W3016417837,Artificial Intelligence in Dentistry: Chances and Challenges,0
+AI-based personalized learning,Education,BM25,10,W4389831224,Revolutionizing education: Artificial intelligence empowered learning in higher education,1
+Deep learning for climate prediction,Environmental Science,BM25,5,W4294904679,"Smart breeding driven by big data, artificial intelligence, and integrated genomic-enviromic prediction",0
+Deep learning for climate prediction,Environmental Science,BM25,7,W3183145420,Artificial intelligence techniques for enabling Big Data services in distribution networks: A review,0
+Deep learning for climate prediction,Environmental Science,BM25,9,W3039799152,"Black boxes, not green: Mythologizing artificial intelligence and omitting the environment",0
+Deep learning for climate prediction,Environmental Science,BM25,10,W4402839760,Cardiovascular care with digital twin technology in the era of generative artificial intelligence,0

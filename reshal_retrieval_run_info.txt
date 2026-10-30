@@ -1,0 +1,13 @@
+Run timestamp: 2026-10-30T10:23:38
+Python: 3.13.14
+Platform: Windows-11-10.0.26200-SP0
+Dataset: data\research_papers_real.csv
+Dataset rows: 2200
+Embedding matrix shape: (2200, 384)
+Embedding model for query vectors: all-MiniLM-L6-v2
+Retrieval scope: each query restricted to its assigned domain (220 papers expected per domain).
+BM25 text fields: Title, Abstract, Topics, Keywords; tokenization uses lowercase alphanumeric tokens.
+Semantic retrieval: normalized query embeddings + FAISS IndexFlatIP over stored document vectors in the same domain.
+Top K: 10
+Relevant labels are intentionally blank and require human audit using title + abstract.
+Output: reshal_retrieval_results_to_label.csv

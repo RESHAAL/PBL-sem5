@@ -1,0 +1,13 @@
+Query,Method,Results_at_10,Relevant_at_10,Precision@10,nDCG@10_binary,nDCG@10_binary_defined_queries_only
+AI for climate prediction,BM25,10,0,0.0,,
+AI for climate prediction,Semantic (MiniLM + FAISS),10,0,0.0,,
+AI for early disease detection,BM25,10,8,0.8,0.9851514063429596,
+AI for early disease detection,Semantic (MiniLM + FAISS),10,6,0.6,0.6727121162120745,
+AI-based personalized learning,BM25,10,9,0.9,0.9971876401972104,
+AI-based personalized learning,Semantic (MiniLM + FAISS),10,8,0.8,0.9933222998814618,
+Explainable AI for cybersecurity,BM25,10,0,0.0,,
+Explainable AI for cybersecurity,Semantic (MiniLM + FAISS),10,0,0.0,,
+Machine learning for crop disease prediction,BM25,10,7,0.7,0.901117806633884,
+Machine learning for crop disease prediction,Semantic (MiniLM + FAISS),10,7,0.7,0.9374836267524946,
+MACRO AVERAGE (5 queries),BM25,50,24,0.4800000000000001,,0.9611522843913513
+MACRO AVERAGE (5 queries),Semantic (MiniLM + FAISS),50,21,0.4199999999999999,,0.8678393476153436

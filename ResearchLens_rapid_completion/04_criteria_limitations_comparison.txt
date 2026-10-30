@@ -1,0 +1,37 @@
+ResearchLens AI retrieval experiment — rapid completion package
+Date: 2026-10-30
+
+Approved queries:
+1. AI for early disease detection — Healthcare
+2. Machine learning for crop disease prediction — Agriculture
+3. Explainable AI for cybersecurity — Computer Science
+4. AI-based personalized learning — Education
+5. AI for climate prediction — Environmental Science
+
+Retrieval setup recorded in the existing run info:
+- Dataset: research_papers_real.csv; 2,200 records, 220 per domain.
+- Embeddings: shape 2,200 x 384; model recorded as all-MiniLM-L6-v2.
+- Retrieval restricted to the query's assigned domain.
+- BM25 fields: Title, Abstract, Topics, Keywords.
+- Semantic: query embedding and FAISS inner-product search.
+- Top 10 per method per query: 100 rows total.
+
+Labeling:
+- 01_audit_labels_AI_assisted.csv includes AI-assisted labels in Audited_Relevant and a rationale in Reviewer_Notes.
+- These labels were assigned using title + abstract and stricter query-specific task criteria, but are NOT independently human-reviewed. The status and reviewer field explicitly disclose this. They must not be described as human-verified ground truth.
+- Strict criterion: a paper should address the query's central task, not merely mention generic AI/ML or an adjacent domain. See per-row Reviewer_Notes.
+- Please human-check especially the rows marked AI-assisted title+abstract review — human confirmation required.
+
+Metrics:
+- 02_metrics_per_query.csv reports Precision@10 and binary nDCG@10 from these AI-assisted labels.
+- 03_metrics_macro_summary.csv reports macro P@10 and average nDCG over queries where IDCG > 0.
+- Climate prediction has zero relevant documents in top 10 under this strict labeling pass; binary nDCG@10 is undefined for that query because IDCG=0. This does NOT prove there are no relevant papers in the full corpus.
+- Recall and F1 are intentionally not reported as final: corpus-wide relevant totals have not been audited across all 220 papers in each query's domain. Do not invent these totals.
+
+Reproduction:
+Run:
+  python 04_calculate_metrics.py 01_audit_labels_AI_assisted.csv --out recomputed_metrics.csv
+The script calculates P@10 and nDCG@10 from the Audited_Relevant column and produces per-query and macro CSVs.
+
+Comparison note:
+Previous summary files mention old BM25 P@10=0.20 and semantic P@10=0.26, but they use an older run and may differ in query set/label convention. A prior run used an incorrect fifth query (“Deep learning for climate prediction”), so comparisons are not strictly apples-to-apples. Current AI-assisted P@10 values should be presented as provisional pending independent audit, not as validated improvement.

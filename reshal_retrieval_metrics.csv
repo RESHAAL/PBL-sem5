@@ -1,0 +1,11 @@
+Query,Domain,Method,Results_count,Relevant_in_top10,Precision@10,DCG@10,IDCG@10,nDCG@10,nDCG_status
+AI for early disease detection,Healthcare,BM25,10,4,0.4,2.48713694067948,2.5616063116448506,0.9709286432396583,Defined
+AI for early disease detection,Healthcare,Semantic (MiniLM + FAISS),10,4,0.4,1.618559360971916,2.5616063116448506,0.6318532842514007,Defined
+Machine learning for crop disease prediction,Agriculture,BM25,10,2,0.2,0.671672063893751,1.6309297535714575,0.41183384043543503,Defined
+Machine learning for crop disease prediction,Agriculture,Semantic (MiniLM + FAISS),10,5,0.5,2.7652930825687725,2.9484591188793923,0.9378773695257355,Defined
+Explainable AI for cybersecurity,Computer Science,BM25,10,0,0.0,0.0,0.0,,Undefined: no relevant results in top 10
+Explainable AI for cybersecurity,Computer Science,Semantic (MiniLM + FAISS),10,0,0.0,0.0,0.0,,Undefined: no relevant results in top 10
+AI-based personalized learning,Education,BM25,10,7,0.7,3.496387907565243,3.6379996393207477,0.9610742864774046,Defined
+AI-based personalized learning,Education,Semantic (MiniLM + FAISS),10,5,0.5,2.8739897479140213,2.9484591188793923,0.9747429528567877,Defined
+AI for climate prediction,Environmental Science,BM25,10,2,0.2,1.3868528072345416,1.6309297535714575,0.8503449055347546,Defined
+AI for climate prediction,Environmental Science,Semantic (MiniLM + FAISS),10,3,0.3,2.0177825608059994,2.1309297535714578,0.9469024295259745,Defined

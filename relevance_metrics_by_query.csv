@@ -1,0 +1,11 @@
+Query,Method,Relevant@10,Precision@10,Recall@10,F1@10
+AI for early disease detection,BM25,1,0.1,0.333,0.154
+AI for early disease detection,Semantic (MiniLM + FAISS),2,0.2,0.667,0.308
+AI-based personalized learning,BM25,6,0.6,0.545,0.571
+AI-based personalized learning,Semantic (MiniLM + FAISS),5,0.5,0.455,0.476
+Deep learning for climate prediction,BM25,0,0.0,0.0,0.0
+Deep learning for climate prediction,Semantic (MiniLM + FAISS),1,0.1,1.0,0.182
+Explainable AI for cybersecurity,BM25,0,0.0,0.0,0.0
+Explainable AI for cybersecurity,Semantic (MiniLM + FAISS),0,0.0,0.0,0.0
+Machine learning for crop disease prediction,BM25,3,0.3,0.375,0.333
+Machine learning for crop disease prediction,Semantic (MiniLM + FAISS),5,0.5,0.625,0.556

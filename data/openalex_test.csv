@@ -1,0 +1,11 @@
+Paper_ID,Title,Year,DOI,Citations,OpenAlex_URL,Type,Open_Access,Abstract_Available
+W3038568908,Radiation Resistant Camera System for Monitoring Deuterium Plasma Discharges in the Large Helical Device,2020,https://doi.org/10.1585/pfr.15.2402039,801217,https://openalex.org/W3038568908,article,True,True
+W3128646645,Global Cancer Statistics 2020: GLOBOCAN Estimates of Incidence and Mortality Worldwide for 36 Cancers in 185 Countries,2021,https://doi.org/10.3322/caac.21660,113972,https://openalex.org/W3128646645,article,True,True
+W3118615836,The PRISMA 2020 statement: an updated guideline for reporting systematic reviews,2021,https://doi.org/10.1136/bmj.n71,102711,https://openalex.org/W3118615836,review,True,True
+W4385245566,Exploiting Generative AI to Scale up Intelligent Tutoring Systems,2023,https://doi.org/10.4230/lipics.itp.2023.19,79071,https://openalex.org/W4385245566,article,True,True
+W3177828909,Highly accurate protein structure prediction with AlphaFold,2021,https://doi.org/10.1038/s41586-021-03819-2,46807,https://openalex.org/W3177828909,article,True,True
+W3003257820,SciPy 1.0: fundamental algorithms for scientific computing in Python,2020,https://doi.org/10.1038/s41592-019-0686-2,39507,https://openalex.org/W3003257820,article,True,True
+W3138516171,Swin Transformer: Hierarchical Vision Transformer using Shifted Windows,2021,https://doi.org/10.1109/iccv48922.2021.00986,32196,https://openalex.org/W3138516171,conference-paper,False,True
+W3025949386,The ERA5 global reanalysis,2020,https://doi.org/10.1002/qj.3803,31724,https://openalex.org/W3025949386,article,True,True
+W3008827533,Clinical Characteristics of Coronavirus Disease 2019 in China,2020,https://doi.org/10.1056/nejmoa2002032,31242,https://openalex.org/W3008827533,article,True,True
+W3001897055,"A Novel Coronavirus from Patients with Pneumonia in China, 2019",2020,https://doi.org/10.1056/nejmoa2001017,30489,https://openalex.org/W3001897055,article,True,True

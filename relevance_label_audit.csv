@@ -1,0 +1,9 @@
+Check,Result,Interpretation
+Rows in retrieval labels,100,Expected 5 queries x 2 methods x 10 results
+Rows in review file,100,Should match retrieval label rows
+Relevant labels (1),24,Count across method-result rows; duplicates across methods can occur
+Non-relevant labels (0),76,Count across method-result rows
+Unique query-paper pairs,79,Deduplicated by query and Paper_ID
+Duplicate rows beyond unique query-paper pairs,21,Same query-paper appears in both methods
+Query-paper pairs with conflicting labels,0,Should be zero for consistent labels
+Unique relevant papers in pooled retrievals,16,Across all queries; not total relevant corpus

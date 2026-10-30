@@ -1,0 +1,36 @@
+ResearchLens AI retrieval experiment — audit and reproducibility note
+Date: 2026-10-30
+
+Approved query set (exact wording):
+1. AI for early disease detection — Healthcare
+2. Machine learning for crop disease prediction — Agriculture
+3. Explainable AI for cybersecurity — Computer Science
+4. AI-based personalized learning — Education
+5. AI for climate prediction — Environmental Science
+
+Run scope:
+- Dataset: research_papers_real.csv (2,200 records; 220 records per domain)
+- Stored embeddings: shape 2,200 x 384; run info reports all-MiniLM-L6-v2
+- Retrieval is restricted to each query's assigned domain.
+- BM25 fields: Title, Abstract, Topics, Keywords.
+- Semantic retrieval: query embedding + FAISS inner-product search over stored vectors.
+- Top 10 per method per query; 5 queries x 2 methods x 10 = 100 rows.
+
+Relevance criteria for reviewer audit (use title AND abstract):
+Relevant = 1 only if the paper substantively addresses the query's central task/topic in the assigned domain, not merely mentioning a keyword.
+Relevant = 0 if the match is incidental, only shares generic AI/ML language, addresses a materially different task, or the title/abstract does not provide enough evidence of the target task.
+If uncertain, mark for adjudication rather than guessing. Keep the original label in Relevant, enter reviewer-confirmed decision in Audited_Relevant, and record reasoning in Reviewer_Notes. Apply the same criteria to both methods and all queries.
+
+Important status:
+- Existing labels in 02_relevance_label_audit_sheet.csv are NOT human-audited ground truth.
+- Audited_Relevant is blank for all 100 rows; Audit_Status says Needs human confirmation.
+- Therefore metrics in 03_provisional_metrics_per_query.csv are provisional only and must not be described as final validated results.
+- Corpus-wide relevant-document totals for recall are not verified. Recall cannot be reported as final without judging all eligible documents for each query (220 documents per domain).
+- For queries with zero relevant items in top 10, binary nDCG@10 is undefined when IDCG@10=0; do not replace this with a misleading 0 unless your chosen convention is explicitly stated.
+
+Reproduction:
+1. Run the retrieval script from the project root with its expected data/ and models/ paths:
+   python reshal_retrieval_experiment.py
+2. Fill audited labels in Audited_Relevant after checking title + abstract.
+3. Recompute P@10 and nDCG@10 from Audited_Relevant; calculate recall only after establishing corpus-wide relevant counts per query.
+4. Report per-query results and macro averages; state the relevance definition and any undefined metric handling.

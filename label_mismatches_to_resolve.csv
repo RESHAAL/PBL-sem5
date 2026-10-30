@@ -1,0 +1,3 @@
+Query,Domain,Method,Rank,Paper_ID,Relevant_corrected,Relevant_review
+AI for early disease detection,Healthcare,Semantic (MiniLM + FAISS),4,W3036858161,1,0.0
+Deep learning for climate prediction,Environmental Science,Semantic (MiniLM + FAISS),1,W4382315652,0,1.0

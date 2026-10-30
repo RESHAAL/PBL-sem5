@@ -1,0 +1,3 @@
+Method,AI_assisted_Precision_at_10_macro,AI_assisted_nDCG_at_10_defined_queries,unresolved_rows,Status
+BM25,0.6,0.9594361158297846,12,PROVISIONAL ONLY; no independent human audit; unresolved treated as 0
+Semantic (MiniLM + FAISS),0.6,0.9799115425870354,10,PROVISIONAL ONLY; no independent human audit; unresolved treated as 0

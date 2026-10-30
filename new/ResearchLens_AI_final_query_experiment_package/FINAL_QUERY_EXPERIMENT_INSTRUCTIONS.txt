@@ -1,0 +1,40 @@
+FINAL QUERY EXPERIMENT — ResearchLens-AI
+
+The fifth query has been confirmed as:
+AI for climate prediction — Environmental Science
+
+1. Copy corrected_experiment_final_query.py into the project root
+   (same folder as data/, models/, and requirements.txt).
+
+2. Open VS Code terminal in that project folder and activate the existing
+   virtual environment.
+
+3. Run:
+   python corrected_experiment_final_query.py
+
+4. The script creates:
+   - final_query_retrieval_results.csv
+   - final_query_timing_runs.csv
+   - final_query_timing_summary.csv
+   - final_query_environment.txt
+
+5. Open final_query_retrieval_results.csv and review every result using
+   the paper title and abstract. Fill Relevant with 1 (relevant) or 0
+   (not relevant). Do not copy relevance labels from the old climate
+   query; its wording has changed.
+
+6. Send back the completed final_query_retrieval_results.csv and the
+   final_query_environment.txt. Then final Precision@10, nDCG@10 and
+   clearly defined pooled Recall/F1 can be recalculated.
+
+Method note:
+Both methods use the same domain-specific candidate papers (normally
+220 per query). BM25 ranks lexical matches; MiniLM query embeddings are
+searched using a domain-specific FAISS IndexFlatIP index. Timing excludes
+model loading, query encoding and index construction, so it measures
+ranking/search time only.
+
+Security:
+The uploaded ZIP contains a .env file with populated OPENALEX_API_KEY
+and OPENAI_API_KEY entries. Do not share this ZIP publicly or commit .env.
+If these are live keys, revoke/rotate them and create a fresh local .env.

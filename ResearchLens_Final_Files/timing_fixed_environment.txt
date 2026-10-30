@@ -1,0 +1,12 @@
+Python: 3.13.14
+OS: Windows-11-10.0.26200-SP0
+CPU: Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+GPU: Not available
+pandas: 2.3.2
+numpy: 2.3.3
+faiss-cpu: 1.15.0
+sentence-transformers: 5.6.1
+transformers: 5.14.1
+torch: 2.11.0
+rank-bm25: 0.2.2
+streamlit: 1.63.0

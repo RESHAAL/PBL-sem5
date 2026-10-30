@@ -1,0 +1,3 @@
+Method,Queries,Mean_Precision@10,Mean_nDCG@10_defined_queries_only,Queries_with_defined_nDCG,Queries_with_undefined_nDCG
+BM25,5,0.3,0.7985454189218131,4,1
+Semantic (MiniLM + FAISS),5,0.33999999999999997,0.8728440090399746,4,1

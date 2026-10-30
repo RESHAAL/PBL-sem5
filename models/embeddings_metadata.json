@@ -1,0 +1,21 @@
+{
+  "generation_date_utc": "2026-10-25T16:35:36.861584+00:00",
+  "script": "modules/embeddings.py",
+  "dataset": "data/research_papers_real.csv",
+  "dataset_sha256": "b89e6a44ff76b519577038c9df3cc1ae48c17864864ef8284a12f6a12d5b73ce",
+  "artifact": "models/embeddings.pkl",
+  "artifact_sha256": "94ea923015997da9851971dd5f004528993edbf6c2601a183a339f7e1ba0cd0d",
+  "model": "all-MiniLM-L6-v2",
+  "input_fields": [
+    "Title",
+    "Abstract",
+    "Topics",
+    "Keywords"
+  ],
+  "missing_values": "fillna(\"\")",
+  "embedding_dimensions": 384,
+  "number_of_papers": 2200,
+  "normalization": "normalize_embeddings=True; L2-normalized",
+  "original_and_regenerated_embeddings_identical": true,
+  "max_absolute_difference": 0.0
+}
