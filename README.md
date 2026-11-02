@@ -1,53 +1,190 @@
-# ResearchLens AI
 
-ResearchLens AI is a research-paper exploration project using semantic search and research-gap analysis.
 
-## Features
-- Semantic search using Sentence Transformers and FAISS
-- Research-gap detection
-- Paper recommendations
-- SDG analysis
-- OpenAlex data collection
-- BM25 retrieval comparison
+# ResearchLens AI — Domain-Aware Research Paper Retrieval
+
+ResearchLens AI is a research paper retrieval system designed to retrieve relevant academic papers for domain-specific queries using lexical and semantic search techniques.
+
+The project compares **BM25-based lexical retrieval** with **Sentence Transformer embeddings and FAISS-based semantic retrieval** across five research domains.
+
+## Project Overview
+
+ResearchLens evaluates two retrieval approaches:
+
+- **BM25:** Keyword-based lexical retrieval using paper titles, abstracts, topics, and keywords.
+- **Semantic Retrieval:** Sentence Transformer embeddings with FAISS similarity search to identify semantically relevant papers.
+
+The system is evaluated using domain-specific queries and human relevance judgments.
+
+## Research Domains and Queries
+
+| Domain | Query |
+|---|---|
+| Healthcare | AI for early disease detection |
+| Agriculture | Machine learning for crop disease prediction |
+| Computer Science | Explainable AI for cybersecurity |
+| Education | AI-based personalized learning |
+| Environmental Science | AI for climate prediction |
 
 ## Dataset
-Dataset: data/research_papers_real.csv
-Contains 2,200 records across 10 research domains. Publication dates range from 2020-01-01 to 2026-05-20. These are publication dates, not the dataset collection period.
-Source: OpenAlex.
+
+The research corpus contains **2,200 research papers** across five domains.
+
+Each query is associated with a domain-specific subset of papers. The corpus includes metadata such as:
+
+- Paper ID
+- Title
+- Abstract
+- Topics
+- Keywords
+
+The corpus and associated retrieval outputs are maintained in the project repository.
+
+## Methodology
+
+### 1. Dataset Preparation
+The research paper corpus is prepared and organized using paper metadata and domain-specific query definitions.
+
+### 2. Lexical Retrieval — BM25
+BM25 retrieves papers based on lexical similarity between the query and paper metadata fields:
+
+- Title
+- Abstract
+- Topics
+- Keywords
+
+### 3. Semantic Retrieval
+Paper representations are generated using the `all-MiniLM-L6-v2` Sentence Transformer model.
+
+The embeddings are normalized and indexed using FAISS for similarity-based retrieval.
+
+### 4. Retrieval Evaluation
+The system retrieves the top 10 results for each of the five queries using both methods.
+
+Evaluation includes:
+
+- Precision@10
+- Recall@10
+- F1@10
+- nDCG@10
+
+Human relevance judgments are used for relevance evaluation. Independent review and disagreement adjudication are part of the validation process.
+
+### 5. Latency Benchmarking
+Latency is measured for:
+
+- BM25 search-only
+- BM25 end-to-end
+- Semantic FAISS search-only
+- Semantic FAISS end-to-end
+
+The benchmark separates retrieval latency from setup costs such as corpus loading, embedding generation, and index construction.
+
+## Technology Stack
+
+- Python
+- Pandas
+- NumPy
+- Sentence Transformers
+- FAISS
+- BM25 retrieval
+- Scikit-learn
+- CSV-based research data and evaluation outputs
+
+## Repository Structure
+
+```text
+PBL-sem5/
+├── ResearchLens_*.csv
+├── ResearchLens_*.xlsx
+├── ResearchLens_*.zip
+├── benchmark_latency_reconciled.py
+├── benchmark_latency_interleaved.py
+├── benchmark_results_reconciled/
+├── benchmark_results_interleaved/
+├── ResearchLens_retrieval_evaluation_audit_bundle_PROVISIONAL/
+├── reshal_relevance_audit.csv
+├── reshal_retrieval_run_info.txt
+└── README.md
+```
+
+The repository contains dataset-related files, retrieval evaluation materials, relevance review files, latency benchmark scripts, and supporting audit packages.
 
 ## Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/RESHAAL/PBL-sem5.git
+cd PBL-sem5
+```
+
+### 2. Create a virtual environment
+
+Windows PowerShell:
+
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
 ```
 
-## Run the application
-```powershell
-streamlit run app.py
+Linux/macOS:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
 ```
 
-## Retrieval experiment
-Run the preliminary BM25 vs. semantic retrieval comparison:
-```powershell
-python compare_retrieval.py
+### 3. Install dependencies
+
+```bash
+python -m pip install --upgrade pip
+pip install pandas numpy sentence-transformers faiss-cpu rank-bm25 scikit-learn
 ```
-Results are written to retrieval_comparison_results.csv. The Relevant column requires manual assessment. Timing is preliminary, and the two methods currently use different candidate-generation procedures; do not treat this as a controlled benchmark.
 
-## Configuration and models
-Keep secrets in a local .env file; never commit secrets. Model artifacts may be excluded by .gitignore and may need to be regenerated.
+> Dependency versions and the exact execution entry point should be confirmed against the project scripts before reproducing the complete retrieval pipeline.
 
-## Preliminary Evaluation Results
+## Running the Latency Benchmark
 
-Evaluation was performed on 5 research queries, with 10 retrieved results per query for each method (100 result rows total).
+The repository includes latency benchmark scripts.
 
-| Metric | BM25 | Semantic Search (MiniLM + FAISS) |
-|---|---:|---:|
-| Mean Precision@10 | 0.20 | 0.26 |
-| Mean nDCG@10 | 0.38 | 0.69 |
+```bash
+python benchmark_latency_reconciled.py
+```
 
-These are preliminary, title-based relevance judgments and have not yet been independently validated. The results suggest that semantic search performed better on this small query set, particularly in ranking relevant results near the top. They do not establish general superiority.
+For the interleaved benchmark:
 
-**Limitations:** Only five queries were evaluated. Relevance labels require verification using paper titles and abstracts. The methods currently use different candidate-generation procedures, so this is not a controlled, apples-to-apples benchmark. Latency measurements are preliminary and should be repeated with warm-up runs and multiple trials. Recall is not reported because the total number of relevant papers per query has not been established.
+```bash
+python benchmark_latency_interleaved.py
+```
 
-Detailed per-query metrics are available in `retrieval_metrics.csv`.
+The benchmark output files are stored in the corresponding result directories.
+
+## Evaluation Status
+
+The project includes preliminary relevance evaluation and human-review materials.
+
+**Final evaluation metrics remain subject to independent relevance review and disagreement adjudication.** Suggested labels and provisional metric files should not be interpreted as final human-validated results.
+
+Latency benchmark outputs are environment-specific and should be interpreted in the context of the hardware and software environment used.
+
+## Reproducibility
+
+For reproducibility, the following artifacts should be maintained:
+
+- Dataset and query definitions
+- Embedding generation configuration
+- FAISS index and Paper ID mapping
+- Retrieval outputs
+- Relevance judgment files
+- Evaluation scripts
+- Latency benchmark scripts
+- Environment and dependency information
+
+## Project Team
+
+ResearchLens AI is developed as part of the PBL Semester 5 project.
+
+## License
+
+Add the applicable project license before external reuse or redistribution.
+
