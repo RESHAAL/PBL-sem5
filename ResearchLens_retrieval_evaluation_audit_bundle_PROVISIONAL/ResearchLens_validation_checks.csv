@@ -1,0 +1,10 @@
+Check,Passed
+Approved query strings in retrieval CSV,True
+Climate query exact; no substituted query,True
+Each query x method has exactly 10 rows,True
+100 top-10 rows total,True
+Correct query-domain mapping,True
+"1,100 unique query-paper label pairs",True
+220 corpus rows per query,True
+All 100 retrievals matched to a query-paper suggestion,True
+Human_Relevance field populated,False

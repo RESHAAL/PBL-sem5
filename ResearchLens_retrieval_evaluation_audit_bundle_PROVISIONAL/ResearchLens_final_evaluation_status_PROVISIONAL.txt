@@ -1,0 +1,21 @@
+RESEARCHLENS AI — RETRIEVAL EVALUATION STATUS
+
+Completed in this audit:
+- Checked all five exact approved query strings and domain mappings in the latest retrieval CSV.
+- Verified climate query is "AI for climate prediction", not "Deep learning for climate prediction".
+- Verified 100 retrieval rows, exactly 10 per query-method, both BM25 and Semantic (MiniLM + FAISS).
+- Verified 1,100 unique query-paper label pairs (220 per query), and matched all 100 retrieved results to the corpus-wide suggestions.
+- Recomputed per-query P@10, Recall@10, F1@10, DCG@10 and corpus-wide nDCG@10.
+- Documented macro and micro F1 averaging methods.
+- Summarized the existing latency run's measurement protocol and query-level results.
+- Compared current provisional P@10 with earlier reported provisional package values.
+
+Latest macro results (AI-suggested labels; NOT human-verified):
+BM25: P@10=0.4000, Recall@10=0.2234, Macro F1@10=0.2006, nDCG@10=0.5108.
+Semantic: P@10=0.4400, Recall@10=0.3682, Macro F1@10=0.2228, nDCG@10=0.5737.
+
+Not completed / unresolved:
+- Independent human verification of all 1,100 judgments. Automated suggestions cannot ethically or scientifically be represented as human-verified.
+- Fresh latency rerun. Existing CSV has 3 warmups and 30 repeats, but the project dataset and embeddings were not mounted here; therefore this audit only reanalysed the existing latency run.
+- BM25 latency shows an anomaly where end-to-end can be faster than search-only; repeat paired/interleaved runs before final claims.
+- Final metrics must be recalculated after human judgments are completed.

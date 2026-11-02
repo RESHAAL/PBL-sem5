@@ -1,0 +1,21 @@
+Query,Domain,Method,Latency_type,Corpus_size,Warmups,Repeats,mean_ms,median_ms,std_ms,min_ms,max_ms
+AI for early disease detection,Healthcare,BM25,search_only,220,5,50,0.455488,0.37485,0.1291549925398131,0.3024,0.7215
+AI for early disease detection,Healthcare,BM25,end_to_end_query,220,5,50,0.4816360000000001,0.42679999999999996,0.13687496418413472,0.312,0.7889
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,220,5,50,0.041018,0.036849999999999994,0.012214890377681475,0.0253,0.0681
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,220,5,50,11.544730000000001,10.8774,3.262226928270106,9.8431,33.2752
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,220,5,50,0.61442,0.5748,0.19744088549564934,0.3044,1.0062
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,220,5,50,0.667072,0.6929000000000001,0.18842641723018586,0.3746,1.0018
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,220,5,50,0.07394400000000001,0.056650000000000006,0.046511991694922844,0.021,0.1643
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,220,5,50,12.019936,11.006350000000001,3.9504392191744753,7.5445,31.9723
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,220,5,50,0.464298,0.48024999999999995,0.15780535348255806,0.189,0.7598
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,220,5,50,0.38912199999999997,0.35735,0.139457068648091,0.1884,0.6752
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,220,5,50,0.07143,0.053,0.04550352868128998,0.0231,0.148
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,220,5,50,9.645914,8.90085,1.8307578972576983,7.3833,13.0982
+AI-based personalized learning,Education,BM25,search_only,220,5,50,0.410206,0.36839999999999995,0.13680307075262213,0.2062,0.6841
+AI-based personalized learning,Education,BM25,end_to_end_query,220,5,50,0.471874,0.4473,0.1546966377086695,0.2304,0.7379
+AI-based personalized learning,Education,Semantic_FAISS,search_only,220,5,50,0.073002,0.0545,0.04397382565637362,0.0237,0.1457
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,220,5,50,9.85081,9.47915,1.9198660524332718,7.1069,14.1308
+AI for climate prediction,Environmental Science,BM25,search_only,220,5,50,0.41049199999999997,0.33615,0.16152025568305162,0.2215,0.7218
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,220,5,50,0.468512,0.50115,0.1584975125537126,0.2501,0.8063
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,220,5,50,0.065012,0.0527,0.03859428233004765,0.022,0.1548
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,220,5,50,10.094238,9.3529,1.9598528685811376,7.5917,18.3355

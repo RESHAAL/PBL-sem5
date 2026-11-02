@@ -1,0 +1,46 @@
+RESEARCHLENS AI — RETRIEVAL EVALUATION AUDIT (PROVISIONAL)
+
+Status and integrity
+- Exact approved queries and domain mappings were checked against the latest top-100 retrieval CSV.
+- The retrieval CSV contains 100 rows: 5 queries x 2 methods x 10 ranks.
+- Climate query is exactly "AI for climate prediction"; the substituted "Deep learning for climate prediction" does not occur.
+- The 1,100-row label file contains 220 unique query-paper pairs per query.
+- All 100 retrieved papers matched to a suggested label by (Query, Paper_ID).
+- Human_Relevance is blank for all 1,100 rows. Therefore independent human verification has NOT been completed.
+- The file's Suggested_Relevance field is automated and must not be relabelled or described as human-verified. Metrics below are provisional.
+
+Relevance criteria
+- Binary relevance: 1 = the paper's title/abstract indicate substantive relevance to the query's research topic; 0 = insufficient topical connection.
+- A defensible human audit must inspect BOTH title and abstract for every query-paper pair, apply the same rule consistently, and record a short rationale for borderline decisions.
+- Current Suggested_Relevance values are algorithmic suggestions; this audit does not certify their correctness.
+
+Metrics
+- P@10 = number of relevant papers in ranked positions 1–10 divided by 10.
+- Recall@10 = relevant retrieved in top 10 divided by the number of relevant papers among all 220 corpus papers for that query.
+- F1@10 per query = harmonic mean of that query's P@10 and Recall@10.
+- Macro F1@10 = arithmetic mean of the five query-level F1@10 values, calculated separately for each retrieval method. It is NOT the harmonic mean of macro precision and macro recall.
+- Supplementary micro F1 pools all 50 retrieved results per method: micro P = total relevant retrieved / 50; micro R = total relevant retrieved / total suggested-relevant query-paper pairs across five queries; micro F1 is the harmonic mean of those two micro values.
+- DCG@10 = sum(rel_i / log2(i+1)) for ranks i=1..10, using binary relevance.
+- IDCG@10 is calculated by sorting all 220 corpus relevance labels for that query in descending order, then taking the top 10 ideal gains. This is corpus-wide IDCG, not retrieved-pool IDCG.
+- nDCG@10 = DCG@10 / IDCG@10. If IDCG=0, report NA. In this current suggestion set all five queries have at least one suggested relevant paper, so all nDCG values are defined.
+- Macro metrics are unweighted arithmetic means across the five approved queries.
+
+Latency
+- The supplied existing latency run records 3 warmups and 30 timed repeats per query and method/measurement boundary; each query uses its domain-filtered 220-document subset.
+- Search-only: BM25 scoring of an already-tokenized query; FAISS index.search on an already encoded query vector.
+- End-to-end query latency: BM25 query tokenization + scoring; semantic query embedding + FAISS search.
+- Model loading, corpus loading, and index construction are excluded from both measurements.
+- The existing latency CSV is reused, not rerun in this environment. The original dataset and saved embeddings were not available in the mounted files here, so a fresh independent benchmark rerun could not be performed.
+- BM25 end-to-end values are unexpectedly lower than search-only in some query cases. This is a measurement-boundary/noise anomaly; repeat interleaved paired measurements on the project machine before making strong latency claims.
+
+Previous comparison
+- Earlier provisional packages were reported as BM25/Semantic P@10 = 0.52/0.34 and 0.52/0.38.
+- Current recomputation from the currently supplied top-100 CSV and current suggested-label file is 0.40/0.44.
+- These are not like-for-like because earlier packages used different provisional label/input versions. Available evidence does not isolate every row-level change responsible for the discrepancy.
+- Do not call the current values final until human judgments are independently completed and the label file is frozen.
+
+Limitations / unresolved
+1. No human-verified 1,100-row judgment file is present; do not claim human verification.
+2. No fresh latency rerun was possible in this execution environment due to missing mounted project dataset and embeddings.
+3. The latest retrieval CSV's Relevant column is blank; evaluation relevance was joined from Suggested_Relevance in the corpus-wide sheet.
+4. The current results are reproducible conditional on the supplied provisional labels, not definitive evidence of retrieval quality.

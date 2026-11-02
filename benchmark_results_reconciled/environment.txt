@@ -1,0 +1,1 @@
+Python: 3.13.14\nPlatform: Windows-11-10.0.26200-SP0\nModel: all-MiniLM-L6-v2\nCorpus: 2200\nIndex build/model load excluded from query timings.\n

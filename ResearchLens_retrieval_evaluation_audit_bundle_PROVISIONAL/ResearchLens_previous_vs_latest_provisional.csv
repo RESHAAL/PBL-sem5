@@ -1,0 +1,4 @@
+Version_or_source,BM25_P@10,Semantic_P@10,Status
+Earlier provisional ZIP v1 (previously reported),0.52,0.34,Provisional; different earlier package
+Earlier provisional ZIP v2 (previously reported),0.52,0.38,Provisional; different earlier package
+"Latest recomputation using current 1,100 suggested labels + current top-100 CSV",0.4,0.44000000000000006,Reproducible from current files; still provisional

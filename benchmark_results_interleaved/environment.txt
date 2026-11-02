@@ -1,0 +1,10 @@
+Python: 3.13.14
+Platform: Windows-11-10.0.26200-SP0
+NumPy: 2.3.3
+Model: all-MiniLM-L6-v2
+Queries: 5
+Corpus: 2200; 220 papers per domain subset
+Warmups per path/query: 5
+Timed repeats per path/query: 50
+Order: four timing paths randomized/interleaved per repeat.
+Excluded: corpus load, embeddings load, model load, BM25 build, FAISS index build.

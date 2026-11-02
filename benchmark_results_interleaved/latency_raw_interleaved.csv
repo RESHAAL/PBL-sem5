@@ -1,0 +1,1001 @@
+Query,Domain,Method,Latency_type,Repeat,Order_within_repeat,Latency_ms
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,1,1,11.1511
+AI for early disease detection,Healthcare,BM25,end_to_end_query,1,2,0.7292
+AI for early disease detection,Healthcare,BM25,search_only,1,3,0.41
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,1,4,0.0581
+AI for early disease detection,Healthcare,BM25,end_to_end_query,2,1,0.3704
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,2,2,10.7344
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,2,3,0.0302
+AI for early disease detection,Healthcare,BM25,search_only,2,4,0.5154
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,3,1,0.0459
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,3,2,11.1798
+AI for early disease detection,Healthcare,BM25,search_only,3,3,0.5657
+AI for early disease detection,Healthcare,BM25,end_to_end_query,3,4,0.4537
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,4,1,10.6761
+AI for early disease detection,Healthcare,BM25,search_only,4,2,0.5437
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,4,3,0.0515
+AI for early disease detection,Healthcare,BM25,end_to_end_query,4,4,0.3704
+AI for early disease detection,Healthcare,BM25,end_to_end_query,5,1,0.3155
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,5,2,10.7442
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,5,3,0.0266
+AI for early disease detection,Healthcare,BM25,search_only,5,4,0.5286
+AI for early disease detection,Healthcare,BM25,end_to_end_query,6,1,0.355
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,6,2,10.7385
+AI for early disease detection,Healthcare,BM25,search_only,6,3,0.5439
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,6,4,0.0513
+AI for early disease detection,Healthcare,BM25,search_only,7,1,0.5238
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,7,2,10.9254
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,7,3,0.0311
+AI for early disease detection,Healthcare,BM25,end_to_end_query,7,4,0.5874
+AI for early disease detection,Healthcare,BM25,search_only,8,1,0.3639
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,8,2,0.0654
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,8,3,10.9511
+AI for early disease detection,Healthcare,BM25,end_to_end_query,8,4,0.5938
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,9,1,11.3045
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,9,2,0.0271
+AI for early disease detection,Healthcare,BM25,search_only,9,3,0.5912
+AI for early disease detection,Healthcare,BM25,end_to_end_query,9,4,0.3531
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,10,1,0.051
+AI for early disease detection,Healthcare,BM25,end_to_end_query,10,2,0.3357
+AI for early disease detection,Healthcare,BM25,search_only,10,3,0.3162
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,10,4,12.1516
+AI for early disease detection,Healthcare,BM25,search_only,11,1,0.5784
+AI for early disease detection,Healthcare,BM25,end_to_end_query,11,2,0.3781
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,11,3,0.0516
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,11,4,11.9338
+AI for early disease detection,Healthcare,BM25,search_only,12,1,0.5528
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,12,2,0.0498
+AI for early disease detection,Healthcare,BM25,end_to_end_query,12,3,0.3877
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,12,4,10.7091
+AI for early disease detection,Healthcare,BM25,search_only,13,1,0.5053
+AI for early disease detection,Healthcare,BM25,end_to_end_query,13,2,0.357
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,13,3,10.8117
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,13,4,0.0343
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,14,1,10.6814
+AI for early disease detection,Healthcare,BM25,end_to_end_query,14,2,0.6533
+AI for early disease detection,Healthcare,BM25,search_only,14,3,0.3687
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,14,4,0.0561
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,15,1,0.0254
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,15,2,10.6422
+AI for early disease detection,Healthcare,BM25,search_only,15,3,0.5958
+AI for early disease detection,Healthcare,BM25,end_to_end_query,15,4,0.3634
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,16,1,10.915
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,16,2,0.0304
+AI for early disease detection,Healthcare,BM25,end_to_end_query,16,3,0.6272
+AI for early disease detection,Healthcare,BM25,search_only,16,4,0.3778
+AI for early disease detection,Healthcare,BM25,end_to_end_query,17,1,0.3664
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,17,2,10.9314
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,17,3,0.0261
+AI for early disease detection,Healthcare,BM25,search_only,17,4,0.5342
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,18,1,12.8022
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,18,2,0.0333
+AI for early disease detection,Healthcare,BM25,search_only,18,3,0.7106
+AI for early disease detection,Healthcare,BM25,end_to_end_query,18,4,0.5355
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,19,1,11.4833
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,19,2,0.0316
+AI for early disease detection,Healthcare,BM25,search_only,19,3,0.5302
+AI for early disease detection,Healthcare,BM25,end_to_end_query,19,4,0.3488
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,20,1,11.1303
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,20,2,0.0354
+AI for early disease detection,Healthcare,BM25,search_only,20,3,0.5854
+AI for early disease detection,Healthcare,BM25,end_to_end_query,20,4,0.3999
+AI for early disease detection,Healthcare,BM25,search_only,21,1,0.351
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,21,2,10.9619
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,21,3,0.0258
+AI for early disease detection,Healthcare,BM25,end_to_end_query,21,4,0.5181
+AI for early disease detection,Healthcare,BM25,end_to_end_query,22,1,0.3528
+AI for early disease detection,Healthcare,BM25,search_only,22,2,0.3097
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,22,3,0.0489
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,22,4,10.6238
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,23,1,0.0323
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,23,2,10.7308
+AI for early disease detection,Healthcare,BM25,end_to_end_query,23,3,0.6446
+AI for early disease detection,Healthcare,BM25,search_only,23,4,0.3688
+AI for early disease detection,Healthcare,BM25,search_only,24,1,0.314
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,24,2,0.0521
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,24,3,10.7441
+AI for early disease detection,Healthcare,BM25,end_to_end_query,24,4,0.5826
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,25,1,10.8187
+AI for early disease detection,Healthcare,BM25,search_only,25,2,0.6357
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,25,3,0.0538
+AI for early disease detection,Healthcare,BM25,end_to_end_query,25,4,0.3839
+AI for early disease detection,Healthcare,BM25,end_to_end_query,26,1,0.312
+AI for early disease detection,Healthcare,BM25,search_only,26,2,0.3024
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,26,3,0.0372
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,26,4,10.7254
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,27,1,0.0313
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,27,2,10.4652
+AI for early disease detection,Healthcare,BM25,end_to_end_query,27,3,0.6407
+AI for early disease detection,Healthcare,BM25,search_only,27,4,0.3506
+AI for early disease detection,Healthcare,BM25,end_to_end_query,28,1,0.3242
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,28,2,10.6568
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,28,3,0.027
+AI for early disease detection,Healthcare,BM25,search_only,28,4,0.5957
+AI for early disease detection,Healthcare,BM25,end_to_end_query,29,1,0.3938
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,29,2,33.2752
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,29,3,0.0337
+AI for early disease detection,Healthcare,BM25,search_only,29,4,0.7215
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,30,1,15.2718
+AI for early disease detection,Healthcare,BM25,end_to_end_query,30,2,0.6833
+AI for early disease detection,Healthcare,BM25,search_only,30,3,0.3719
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,30,4,0.0573
+AI for early disease detection,Healthcare,BM25,search_only,31,1,0.361
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,31,2,10.9873
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,31,3,0.0264
+AI for early disease detection,Healthcare,BM25,end_to_end_query,31,4,0.5509
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,32,1,11.8014
+AI for early disease detection,Healthcare,BM25,end_to_end_query,32,2,0.6498
+AI for early disease detection,Healthcare,BM25,search_only,32,3,0.3691
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,32,4,0.0529
+AI for early disease detection,Healthcare,BM25,search_only,33,1,0.3392
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,33,2,11.941
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,33,3,0.0339
+AI for early disease detection,Healthcare,BM25,end_to_end_query,33,4,0.6567
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,34,1,12.3139
+AI for early disease detection,Healthcare,BM25,end_to_end_query,34,2,0.6496
+AI for early disease detection,Healthcare,BM25,search_only,34,3,0.3546
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,34,4,0.0549
+AI for early disease detection,Healthcare,BM25,end_to_end_query,35,1,0.3762
+AI for early disease detection,Healthcare,BM25,search_only,35,2,0.3163
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,35,3,0.0425
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,35,4,11.1502
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,36,1,0.0275
+AI for early disease detection,Healthcare,BM25,end_to_end_query,36,2,0.5986
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,36,3,11.5677
+AI for early disease detection,Healthcare,BM25,search_only,36,4,0.595
+AI for early disease detection,Healthcare,BM25,search_only,37,1,0.3512
+AI for early disease detection,Healthcare,BM25,end_to_end_query,37,2,0.3255
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,37,3,0.0528
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,37,4,11.6398
+AI for early disease detection,Healthcare,BM25,end_to_end_query,38,1,0.7026
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,38,2,0.059
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,38,3,12.4721
+AI for early disease detection,Healthcare,BM25,search_only,38,4,0.712
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,39,1,11.8655
+AI for early disease detection,Healthcare,BM25,end_to_end_query,39,2,0.7889
+AI for early disease detection,Healthcare,BM25,search_only,39,3,0.4058
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,39,4,0.0681
+AI for early disease detection,Healthcare,BM25,search_only,40,1,0.3643
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,40,2,0.0445
+AI for early disease detection,Healthcare,BM25,end_to_end_query,40,3,0.3523
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,40,4,12.0688
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,41,1,0.0264
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,41,2,10.589
+AI for early disease detection,Healthcare,BM25,search_only,41,3,0.6547
+AI for early disease detection,Healthcare,BM25,end_to_end_query,41,4,0.383
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,42,1,0.0503
+AI for early disease detection,Healthcare,BM25,search_only,42,2,0.3398
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,42,3,10.2891
+AI for early disease detection,Healthcare,BM25,end_to_end_query,42,4,0.521
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,43,1,9.8888
+AI for early disease detection,Healthcare,BM25,end_to_end_query,43,2,0.5561
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,43,3,0.0474
+AI for early disease detection,Healthcare,BM25,search_only,43,4,0.361
+AI for early disease detection,Healthcare,BM25,search_only,44,1,0.3253
+AI for early disease detection,Healthcare,BM25,end_to_end_query,44,2,0.313
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,44,3,0.0328
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,44,4,10.1895
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,45,1,9.9926
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,45,2,0.0253
+AI for early disease detection,Healthcare,BM25,end_to_end_query,45,3,0.5882
+AI for early disease detection,Healthcare,BM25,search_only,45,4,0.3318
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,46,1,9.8431
+AI for early disease detection,Healthcare,BM25,end_to_end_query,46,2,0.5687
+AI for early disease detection,Healthcare,BM25,search_only,46,3,0.3466
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,46,4,0.047
+AI for early disease detection,Healthcare,BM25,end_to_end_query,47,1,0.3452
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,47,2,0.0365
+AI for early disease detection,Healthcare,BM25,search_only,47,3,0.3418
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,47,4,10.5736
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,48,1,10.8398
+AI for early disease detection,Healthcare,BM25,search_only,48,2,0.6537
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,48,3,0.049
+AI for early disease detection,Healthcare,BM25,end_to_end_query,48,4,0.3967
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,49,1,0.0323
+AI for early disease detection,Healthcare,BM25,search_only,49,2,0.3535
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,49,3,10.1566
+AI for early disease detection,Healthcare,BM25,end_to_end_query,49,4,0.513
+AI for early disease detection,Healthcare,Semantic_FAISS,end_to_end_query,50,1,10.1959
+AI for early disease detection,Healthcare,Semantic_FAISS,search_only,50,2,0.0298
+AI for early disease detection,Healthcare,BM25,end_to_end_query,50,3,0.5283
+AI for early disease detection,Healthcare,BM25,search_only,50,4,0.3348
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,1,1,8.2659
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,1,2,0.0249
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,1,3,0.6871
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,1,4,0.3385
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,2,1,0.0458
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,2,2,0.3044
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,2,3,7.5445
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,2,4,0.7483
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,3,1,8.051
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,3,2,0.0243
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,3,3,0.7169
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,3,4,0.4198
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,4,1,10.4679
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,4,2,0.89
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,4,3,0.1379
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,4,4,0.5643
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,5,1,8.7217
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,5,2,0.7866
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,5,3,0.0585
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,5,4,0.5091
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,6,1,8.5515
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,6,2,0.7826
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,6,3,0.0563
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,6,4,0.4382
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,7,1,0.3928
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,7,2,0.3563
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,7,3,8.6413
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,7,4,0.0282
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,8,1,0.021
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,8,2,8.3617
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,8,3,0.7718
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,8,4,0.4403
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,9,1,0.3743
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,9,2,8.4774
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,9,3,0.7593
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,9,4,0.0543
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,10,1,0.5152
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,10,2,0.396
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,10,3,0.0405
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,10,4,10.4417
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,11,1,0.8963
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,11,2,12.5491
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,11,3,0.8781
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,11,4,0.1345
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,12,1,0.5277
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,12,2,0.1341
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,12,3,12.6396
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,12,4,0.9689
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,13,1,0.5893
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,13,2,0.5492
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,13,3,14.5395
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,13,4,0.1253
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,14,1,11.5179
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,14,2,0.7789
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,14,3,0.4462
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,14,4,0.057
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,15,1,0.4402
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,15,2,0.0366
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,15,3,11.0556
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,15,4,0.753
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,16,1,0.4304
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,16,2,0.3746
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,16,3,0.0639
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,16,4,9.4689
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,17,1,9.3159
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,17,2,0.073
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,17,3,0.7668
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,17,4,0.373
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,18,1,0.0419
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,18,2,0.3755
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,18,3,9.3209
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,18,4,0.8084
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,19,1,0.5409
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,19,2,15.3774
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,19,3,0.1289
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,19,4,0.8933
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,20,1,0.1448
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,20,2,0.6616
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,20,3,19.5
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,20,4,1.0018
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,21,1,0.1643
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,21,2,0.7867
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,21,3,16.9852
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,21,4,0.8346
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,22,1,0.5517
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,22,2,0.5298
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,22,3,0.1395
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,22,4,13.4711
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,23,1,0.8736
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,23,2,0.6091
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,23,3,18.7185
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,23,4,0.1299
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,24,1,1.0062
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,24,2,13.577
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,24,3,0.8174
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,24,4,0.0643
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,25,1,13.0075
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,25,2,0.9377
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,25,3,0.6047
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,25,4,0.1578
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,26,1,0.1299
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,26,2,0.6027
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,26,3,10.9571
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,26,4,0.6987
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,27,1,9.8588
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,27,2,0.7377
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,27,3,0.4441
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,27,4,0.056
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,28,1,0.4105
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,28,2,10.9289
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,28,3,0.0263
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,28,4,0.6828
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,29,1,0.4417
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,29,2,0.0498
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,29,3,12.6848
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,29,4,0.7378
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,30,1,0.4473
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,30,2,0.4036
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,30,3,0.0575
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,30,4,13.4377
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,31,1,0.8412
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,31,2,0.5775
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,31,3,13.424
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,31,4,0.0269
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,32,1,0.7583
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,32,2,0.4272
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,32,3,12.7732
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,32,4,0.0274
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,33,1,0.0212
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,33,2,0.7831
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,33,3,9.031
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,33,4,0.7336
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,34,1,0.0583
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,34,2,10.2563
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,34,3,0.7987
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,34,4,0.4381
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,35,1,0.3835
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,35,2,0.3548
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,35,3,11.878
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,35,4,0.0301
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,36,1,0.0215
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,36,2,0.8452
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,36,3,16.3783
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,36,4,0.8851
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,37,1,0.1469
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,37,2,0.6309
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,37,3,31.9723
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,37,4,0.7024
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,38,1,14.2372
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,38,2,0.9591
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,38,3,0.5774
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,38,4,0.1552
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,39,1,0.5653
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,39,2,13.8979
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,39,3,0.8708
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,39,4,0.1321
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,40,1,0.1184
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,40,2,12.1555
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,40,3,0.8614
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,40,4,0.4941
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,41,1,11.9533
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,41,2,0.89
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,41,3,0.4016
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,41,4,0.0482
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,42,1,0.5194
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,42,2,0.051
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,42,3,10.5878
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,42,4,0.8652
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,43,1,10.9274
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,43,2,0.6542
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,43,3,0.3539
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,43,4,0.0493
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,44,1,8.5443
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,44,2,0.0351
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,44,3,0.8687
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,44,4,0.6077
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,45,1,10.4712
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,45,2,0.891
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,45,3,0.0642
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,45,4,0.5721
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,46,1,0.4988
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,46,2,0.4597
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,46,3,10.3404
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,46,4,0.036
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,47,1,12.5621
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,47,2,0.8577
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,47,3,0.5585
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,47,4,0.0648
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,48,1,0.5125
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,48,2,0.0417
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,48,3,0.4879
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,48,4,10.0866
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,49,1,0.0373
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,49,2,0.8708
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,49,3,10.2242
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,49,4,0.8928
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,end_to_end_query,50,1,12.8598
+Machine learning for crop disease prediction,Agriculture,Semantic_FAISS,search_only,50,2,0.1246
+Machine learning for crop disease prediction,Agriculture,BM25,end_to_end_query,50,3,0.89
+Machine learning for crop disease prediction,Agriculture,BM25,search_only,50,4,0.5301
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,1,1,0.0318
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,1,2,0.5831
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,1,3,8.3986
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,1,4,0.5894
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,2,1,8.6166
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,2,2,0.5609
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,2,3,0.2815
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,2,4,0.0571
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,3,1,0.2653
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,3,2,10.8549
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,3,3,0.6335
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,3,4,0.1351
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,4,1,0.363
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,4,2,0.1278
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,4,3,12.031
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,4,4,0.6221
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,5,1,0.3674
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,5,2,0.1373
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,5,3,12.2255
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,5,4,0.6263
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,6,1,0.1347
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,6,2,10.2405
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,6,3,0.4236
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,6,4,0.2298
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,7,1,0.1884
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,7,2,8.185
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,7,3,0.0298
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,7,4,0.5964
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,8,1,0.2793
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,8,2,0.0501
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,8,3,0.3517
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,8,4,9.1791
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,9,1,0.5467
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,9,2,0.0532
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,9,3,9.2927
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,9,4,0.5718
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,10,1,10.6959
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,10,2,0.1342
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,10,3,0.6741
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,10,4,0.4936
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,11,1,0.3802
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,11,2,0.3726
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,11,3,12.5123
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,11,4,0.1258
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,12,1,0.607
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,12,2,12.2543
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,12,3,0.6407
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,12,4,0.1448
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,13,1,0.3877
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,13,2,0.3345
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,13,3,0.1331
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,13,4,12.5828
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,14,1,0.6379
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,14,2,12.2946
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,14,3,0.1256
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,14,4,0.6377
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,15,1,0.132
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,15,2,11.9137
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,15,3,0.622
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,15,4,0.3791
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,16,1,0.1362
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,16,2,0.3465
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,16,3,0.3534
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,16,4,11.9042
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,17,1,0.6239
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,17,2,10.4575
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,17,3,0.126
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,17,4,0.7598
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,18,1,0.3996
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,18,2,13.0982
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,18,3,0.6722
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,18,4,0.141
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,19,1,0.4051
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,19,2,0.137
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,19,3,0.4307
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,19,4,12.63
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,20,1,0.6303
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,20,2,0.1396
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,20,3,12.2743
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,20,4,0.6353
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,21,1,0.148
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,21,2,11.7424
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,21,3,0.6752
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,21,4,0.4151
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,22,1,11.4284
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,22,2,0.4754
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,22,3,0.0488
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,22,4,0.2869
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,23,1,0.0326
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,23,2,0.2176
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,23,3,0.1997
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,23,4,7.6515
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,24,1,0.0231
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,24,2,11.566
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,24,3,0.6608
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,24,4,0.3803
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,25,1,11.4611
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,25,2,0.4784
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,25,3,0.0528
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,25,4,0.2792
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,26,1,0.2178
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,26,2,0.0289
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,26,3,7.7501
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,26,4,0.4318
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,27,1,7.6341
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,27,2,0.4582
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,27,3,0.2552
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,27,4,0.0523
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,28,1,7.6192
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,28,2,0.0245
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,28,3,0.4557
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,28,4,0.2447
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,29,1,0.2119
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,29,2,0.0484
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,29,3,0.2212
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,29,4,7.5254
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,30,1,7.3833
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,30,2,0.4297
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,30,3,0.2808
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,30,4,0.052
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,31,1,0.2427
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,31,2,8.2017
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,31,3,0.0305
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,31,4,0.6063
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,32,1,0.2987
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,32,2,0.0536
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,32,3,0.2928
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,32,4,8.683
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,33,1,0.5523
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,33,2,0.2968
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,33,3,0.054
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,33,4,8.1308
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,34,1,0.0277
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,34,2,0.5185
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,34,3,0.2922
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,34,4,8.2717
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,35,1,0.557
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,35,2,8.5287
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,35,3,0.0249
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,35,4,0.5493
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,36,1,0.0487
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,36,2,0.3053
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,36,3,0.2418
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,36,4,8.1058
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,37,1,7.4682
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,37,2,0.4942
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,37,3,0.0473
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,37,4,0.2383
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,38,1,7.4228
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,38,2,0.4705
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,38,3,0.0475
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,38,4,0.2492
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,39,1,0.208
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,39,2,0.189
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,39,3,7.4698
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,39,4,0.0248
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,40,1,0.4784
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,40,2,8.8943
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,40,3,0.5602
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,40,4,0.0534
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,41,1,0.3164
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,41,2,8.7561
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,41,3,0.0254
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,41,4,0.5604
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,42,1,0.295
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,42,2,8.5329
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,42,3,0.5466
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,42,4,0.0534
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,43,1,0.3037
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,43,2,9.2462
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,43,3,0.0259
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,43,4,0.5767
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,44,1,0.2669
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,44,2,0.0506
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,44,3,0.2649
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,44,4,8.4305
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,45,1,0.5964
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,45,2,0.3041
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,45,3,8.5726
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,45,4,0.0257
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,46,1,0.5727
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,46,2,9.1602
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,46,3,0.0284
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,46,4,0.6039
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,47,1,0.3371
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,47,2,0.0537
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,47,3,0.2881
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,47,4,8.6714
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,48,1,0.5389
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,48,2,0.0538
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,48,3,0.3002
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,48,4,9.2753
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,49,1,8.1631
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,49,2,0.5494
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,49,3,0.4821
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,49,4,0.0722
+Explainable AI for cybersecurity,Computer Science,BM25,search_only,50,1,0.2874
+Explainable AI for cybersecurity,Computer Science,BM25,end_to_end_query,50,2,0.2589
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,end_to_end_query,50,3,8.9074
+Explainable AI for cybersecurity,Computer Science,Semantic_FAISS,search_only,50,4,0.0264
+AI-based personalized learning,Education,BM25,end_to_end_query,1,1,0.4755
+AI-based personalized learning,Education,BM25,search_only,1,2,0.2218
+AI-based personalized learning,Education,Semantic_FAISS,search_only,1,3,0.0491
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,1,4,8.2933
+AI-based personalized learning,Education,BM25,end_to_end_query,2,1,0.7075
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,2,2,10.0764
+AI-based personalized learning,Education,BM25,search_only,2,3,0.505
+AI-based personalized learning,Education,Semantic_FAISS,search_only,2,4,0.0449
+AI-based personalized learning,Education,BM25,search_only,3,1,0.2627
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,3,2,7.5597
+AI-based personalized learning,Education,Semantic_FAISS,search_only,3,3,0.0294
+AI-based personalized learning,Education,BM25,end_to_end_query,3,4,0.5799
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,4,1,8.4873
+AI-based personalized learning,Education,BM25,end_to_end_query,4,2,0.5732
+AI-based personalized learning,Education,Semantic_FAISS,search_only,4,3,0.0542
+AI-based personalized learning,Education,BM25,search_only,4,4,0.3045
+AI-based personalized learning,Education,BM25,end_to_end_query,5,1,0.2637
+AI-based personalized learning,Education,BM25,search_only,5,2,0.2382
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,5,3,8.4278
+AI-based personalized learning,Education,Semantic_FAISS,search_only,5,4,0.0306
+AI-based personalized learning,Education,Semantic_FAISS,search_only,6,1,0.0237
+AI-based personalized learning,Education,BM25,search_only,6,2,0.4952
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,6,3,7.3479
+AI-based personalized learning,Education,BM25,end_to_end_query,6,4,0.5245
+AI-based personalized learning,Education,BM25,search_only,7,1,0.2487
+AI-based personalized learning,Education,Semantic_FAISS,search_only,7,2,0.0508
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,7,3,7.3038
+AI-based personalized learning,Education,BM25,end_to_end_query,7,4,0.5198
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,8,1,7.1069
+AI-based personalized learning,Education,Semantic_FAISS,search_only,8,2,0.0283
+AI-based personalized learning,Education,BM25,end_to_end_query,8,3,0.5049
+AI-based personalized learning,Education,BM25,search_only,8,4,0.2374
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,9,1,9.0039
+AI-based personalized learning,Education,BM25,end_to_end_query,9,2,0.6369
+AI-based personalized learning,Education,Semantic_FAISS,search_only,9,3,0.0616
+AI-based personalized learning,Education,BM25,search_only,9,4,0.3436
+AI-based personalized learning,Education,Semantic_FAISS,search_only,10,1,0.0368
+AI-based personalized learning,Education,BM25,end_to_end_query,10,2,0.3059
+AI-based personalized learning,Education,BM25,search_only,10,3,0.2593
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,10,4,9.4406
+AI-based personalized learning,Education,BM25,search_only,11,1,0.5578
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,11,2,8.3097
+AI-based personalized learning,Education,BM25,end_to_end_query,11,3,0.5742
+AI-based personalized learning,Education,Semantic_FAISS,search_only,11,4,0.0564
+AI-based personalized learning,Education,Semantic_FAISS,search_only,12,1,0.0248
+AI-based personalized learning,Education,BM25,search_only,12,2,0.322
+AI-based personalized learning,Education,BM25,end_to_end_query,12,3,0.2619
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,12,4,8.4201
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,13,1,11.8527
+AI-based personalized learning,Education,BM25,end_to_end_query,13,2,0.6496
+AI-based personalized learning,Education,Semantic_FAISS,search_only,13,3,0.1331
+AI-based personalized learning,Education,BM25,search_only,13,4,0.3656
+AI-based personalized learning,Education,Semantic_FAISS,search_only,14,1,0.1278
+AI-based personalized learning,Education,BM25,search_only,14,2,0.3429
+AI-based personalized learning,Education,BM25,end_to_end_query,14,3,0.3758
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,14,4,11.849
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,15,1,12.2108
+AI-based personalized learning,Education,BM25,end_to_end_query,15,2,0.656
+AI-based personalized learning,Education,BM25,search_only,15,3,0.3502
+AI-based personalized learning,Education,Semantic_FAISS,search_only,15,4,0.1351
+AI-based personalized learning,Education,BM25,search_only,16,1,0.3492
+AI-based personalized learning,Education,BM25,end_to_end_query,16,2,0.4387
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,16,3,8.2045
+AI-based personalized learning,Education,Semantic_FAISS,search_only,16,4,0.0306
+AI-based personalized learning,Education,BM25,search_only,17,1,0.4915
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,17,2,9.9096
+AI-based personalized learning,Education,Semantic_FAISS,search_only,17,3,0.128
+AI-based personalized learning,Education,BM25,end_to_end_query,17,4,0.6869
+AI-based personalized learning,Education,BM25,search_only,18,1,0.4009
+AI-based personalized learning,Education,Semantic_FAISS,search_only,18,2,0.1385
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,18,3,12.1043
+AI-based personalized learning,Education,BM25,end_to_end_query,18,4,0.4335
+AI-based personalized learning,Education,Semantic_FAISS,search_only,19,1,0.0457
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,19,2,7.3727
+AI-based personalized learning,Education,BM25,search_only,19,3,0.4246
+AI-based personalized learning,Education,BM25,end_to_end_query,19,4,0.2304
+AI-based personalized learning,Education,BM25,search_only,20,1,0.2062
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,20,2,7.133
+AI-based personalized learning,Education,Semantic_FAISS,search_only,20,3,0.0285
+AI-based personalized learning,Education,BM25,end_to_end_query,20,4,0.4483
+AI-based personalized learning,Education,Semantic_FAISS,search_only,21,1,0.0407
+AI-based personalized learning,Education,BM25,end_to_end_query,21,2,0.2354
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,21,3,7.1866
+AI-based personalized learning,Education,BM25,search_only,21,4,0.4264
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,22,1,9.5576
+AI-based personalized learning,Education,BM25,search_only,22,2,0.6357
+AI-based personalized learning,Education,Semantic_FAISS,search_only,22,3,0.1336
+AI-based personalized learning,Education,BM25,end_to_end_query,22,4,0.3937
+AI-based personalized learning,Education,Semantic_FAISS,search_only,23,1,0.138
+AI-based personalized learning,Education,BM25,search_only,23,2,0.3692
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,23,3,10.9528
+AI-based personalized learning,Education,BM25,end_to_end_query,23,4,0.7205
+AI-based personalized learning,Education,BM25,end_to_end_query,24,1,0.4463
+AI-based personalized learning,Education,Semantic_FAISS,search_only,24,2,0.0712
+AI-based personalized learning,Education,BM25,search_only,24,3,0.365
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,24,4,11.3476
+AI-based personalized learning,Education,BM25,search_only,25,1,0.5973
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,25,2,13.0205
+AI-based personalized learning,Education,BM25,end_to_end_query,25,3,0.601
+AI-based personalized learning,Education,Semantic_FAISS,search_only,25,4,0.0534
+AI-based personalized learning,Education,BM25,end_to_end_query,26,1,0.5767
+AI-based personalized learning,Education,BM25,search_only,26,2,0.381
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,26,3,14.1308
+AI-based personalized learning,Education,Semantic_FAISS,search_only,26,4,0.1258
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,27,1,11.8778
+AI-based personalized learning,Education,Semantic_FAISS,search_only,27,2,0.1329
+AI-based personalized learning,Education,BM25,end_to_end_query,27,3,0.7073
+AI-based personalized learning,Education,BM25,search_only,27,4,0.3852
+AI-based personalized learning,Education,Semantic_FAISS,search_only,28,1,0.1369
+AI-based personalized learning,Education,BM25,end_to_end_query,28,2,0.4342
+AI-based personalized learning,Education,BM25,search_only,28,3,0.3676
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,28,4,13.4711
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,29,1,11.7247
+AI-based personalized learning,Education,BM25,search_only,29,2,0.6841
+AI-based personalized learning,Education,BM25,end_to_end_query,29,3,0.3969
+AI-based personalized learning,Education,Semantic_FAISS,search_only,29,4,0.1457
+AI-based personalized learning,Education,BM25,search_only,30,1,0.445
+AI-based personalized learning,Education,BM25,end_to_end_query,30,2,0.4083
+AI-based personalized learning,Education,Semantic_FAISS,search_only,30,3,0.1395
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,30,4,7.8696
+AI-based personalized learning,Education,Semantic_FAISS,search_only,31,1,0.0277
+AI-based personalized learning,Education,BM25,end_to_end_query,31,2,0.4667
+AI-based personalized learning,Education,BM25,search_only,31,3,0.2207
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,31,4,7.7814
+AI-based personalized learning,Education,BM25,search_only,32,1,0.6837
+AI-based personalized learning,Education,BM25,end_to_end_query,32,2,0.3748
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,32,3,11.491
+AI-based personalized learning,Education,Semantic_FAISS,search_only,32,4,0.0351
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,33,1,9.5374
+AI-based personalized learning,Education,BM25,search_only,33,2,0.5574
+AI-based personalized learning,Education,BM25,end_to_end_query,33,3,0.2955
+AI-based personalized learning,Education,Semantic_FAISS,search_only,33,4,0.0553
+AI-based personalized learning,Education,BM25,end_to_end_query,34,1,0.3069
+AI-based personalized learning,Education,Semantic_FAISS,search_only,34,2,0.034
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,34,3,9.0293
+AI-based personalized learning,Education,BM25,search_only,34,4,0.6241
+AI-based personalized learning,Education,Semantic_FAISS,search_only,35,1,0.0635
+AI-based personalized learning,Education,BM25,end_to_end_query,35,2,0.371
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,35,3,8.7613
+AI-based personalized learning,Education,BM25,search_only,35,4,0.5473
+AI-based personalized learning,Education,Semantic_FAISS,search_only,36,1,0.0518
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,36,2,9.3351
+AI-based personalized learning,Education,BM25,search_only,36,3,0.5749
+AI-based personalized learning,Education,BM25,end_to_end_query,36,4,0.3152
+AI-based personalized learning,Education,BM25,search_only,37,1,0.26
+AI-based personalized learning,Education,BM25,end_to_end_query,37,2,0.2614
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,37,3,8.913
+AI-based personalized learning,Education,Semantic_FAISS,search_only,37,4,0.0315
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,38,1,11.802
+AI-based personalized learning,Education,BM25,end_to_end_query,38,2,0.7379
+AI-based personalized learning,Education,BM25,search_only,38,3,0.3569
+AI-based personalized learning,Education,Semantic_FAISS,search_only,38,4,0.1394
+AI-based personalized learning,Education,BM25,search_only,39,1,0.3469
+AI-based personalized learning,Education,Semantic_FAISS,search_only,39,2,0.1274
+AI-based personalized learning,Education,BM25,end_to_end_query,39,3,0.3506
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,39,4,10.6983
+AI-based personalized learning,Education,BM25,search_only,40,1,0.5334
+AI-based personalized learning,Education,Semantic_FAISS,search_only,40,2,0.0533
+AI-based personalized learning,Education,BM25,end_to_end_query,40,3,0.2834
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,40,4,8.3923
+AI-based personalized learning,Education,Semantic_FAISS,search_only,41,1,0.0343
+AI-based personalized learning,Education,BM25,search_only,41,2,0.5528
+AI-based personalized learning,Education,BM25,end_to_end_query,41,3,0.2889
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,41,4,8.9212
+AI-based personalized learning,Education,BM25,end_to_end_query,42,1,0.583
+AI-based personalized learning,Education,Semantic_FAISS,search_only,42,2,0.0542
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,42,3,8.6485
+AI-based personalized learning,Education,BM25,search_only,42,4,0.64
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,43,1,9.1546
+AI-based personalized learning,Education,BM25,end_to_end_query,43,2,0.571
+AI-based personalized learning,Education,BM25,search_only,43,3,0.2741
+AI-based personalized learning,Education,Semantic_FAISS,search_only,43,4,0.0597
+AI-based personalized learning,Education,BM25,search_only,44,1,0.2898
+AI-based personalized learning,Education,Semantic_FAISS,search_only,44,2,0.0277
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,44,3,9.5177
+AI-based personalized learning,Education,BM25,end_to_end_query,44,4,0.5858
+AI-based personalized learning,Education,BM25,search_only,45,1,0.3002
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,45,2,12.1033
+AI-based personalized learning,Education,Semantic_FAISS,search_only,45,3,0.0349
+AI-based personalized learning,Education,BM25,end_to_end_query,45,4,0.6723
+AI-based personalized learning,Education,BM25,end_to_end_query,46,1,0.3288
+AI-based personalized learning,Education,Semantic_FAISS,search_only,46,2,0.0662
+AI-based personalized learning,Education,BM25,search_only,46,3,0.2809
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,46,4,9.5787
+AI-based personalized learning,Education,BM25,search_only,47,1,0.579
+AI-based personalized learning,Education,Semantic_FAISS,search_only,47,2,0.0548
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,47,3,11.3639
+AI-based personalized learning,Education,BM25,end_to_end_query,47,4,0.7124
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,48,1,13.5627
+AI-based personalized learning,Education,BM25,end_to_end_query,48,2,0.6658
+AI-based personalized learning,Education,Semantic_FAISS,search_only,48,3,0.1346
+AI-based personalized learning,Education,BM25,search_only,48,4,0.3999
+AI-based personalized learning,Education,BM25,end_to_end_query,49,1,0.3499
+AI-based personalized learning,Education,BM25,search_only,49,2,0.3459
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,49,3,11.6361
+AI-based personalized learning,Education,Semantic_FAISS,search_only,49,4,0.1306
+AI-based personalized learning,Education,Semantic_FAISS,end_to_end_query,50,1,10.7596
+AI-based personalized learning,Education,BM25,search_only,50,2,0.5586
+AI-based personalized learning,Education,BM25,end_to_end_query,50,3,0.305
+AI-based personalized learning,Education,Semantic_FAISS,search_only,50,4,0.0585
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,1,1,0.4352
+AI for climate prediction,Environmental Science,BM25,search_only,1,2,0.2235
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,1,3,0.0478
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,1,4,9.318
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,2,1,0.716
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,2,2,0.1432
+AI for climate prediction,Environmental Science,BM25,search_only,2,3,0.4287
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,2,4,10.1128
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,3,1,0.4204
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,3,2,0.044
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,3,3,9.6138
+AI for climate prediction,Environmental Science,BM25,search_only,3,4,0.5476
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,4,1,0.0531
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,4,2,9.9039
+AI for climate prediction,Environmental Science,BM25,search_only,4,3,0.6371
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,4,4,0.3641
+AI for climate prediction,Environmental Science,BM25,search_only,5,1,0.3413
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,5,2,0.1384
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,5,3,0.4144
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,5,4,12.3638
+AI for climate prediction,Environmental Science,BM25,search_only,6,1,0.4418
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,6,2,11.3259
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,6,3,0.0367
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,6,4,0.6026
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,7,1,0.3409
+AI for climate prediction,Environmental Science,BM25,search_only,7,2,0.2794
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,7,3,0.0552
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,7,4,8.9602
+AI for climate prediction,Environmental Science,BM25,search_only,8,1,0.5736
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,8,2,0.2816
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,8,3,10.662
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,8,4,0.0405
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,9,1,0.599
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,9,2,9.5795
+AI for climate prediction,Environmental Science,BM25,search_only,9,3,0.5553
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,9,4,0.0523
+AI for climate prediction,Environmental Science,BM25,search_only,10,1,0.3003
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,10,2,9.0807
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,10,3,0.5669
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,10,4,0.052
+AI for climate prediction,Environmental Science,BM25,search_only,11,1,0.2897
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,11,2,0.0277
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,11,3,8.6602
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,11,4,0.6002
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,12,1,0.0546
+AI for climate prediction,Environmental Science,BM25,search_only,12,2,0.3223
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,12,3,0.2621
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,12,4,9.8724
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,13,1,10.2553
+AI for climate prediction,Environmental Science,BM25,search_only,13,2,0.6194
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,13,3,0.0551
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,13,4,0.3372
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,14,1,0.0291
+AI for climate prediction,Environmental Science,BM25,search_only,14,2,0.2816
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,14,3,0.2553
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,14,4,8.9274
+AI for climate prediction,Environmental Science,BM25,search_only,15,1,0.597
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,15,2,0.0581
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,15,3,0.3202
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,15,4,8.9843
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,16,1,0.5684
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,16,2,8.5285
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,16,3,0.0336
+AI for climate prediction,Environmental Science,BM25,search_only,16,4,0.5662
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,17,1,10.1391
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,17,2,0.5961
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,17,3,0.0552
+AI for climate prediction,Environmental Science,BM25,search_only,17,4,0.3011
+AI for climate prediction,Environmental Science,BM25,search_only,18,1,0.2586
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,18,2,11.8989
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,18,3,0.6524
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,18,4,0.1345
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,19,1,12.876
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,19,2,0.673
+AI for climate prediction,Environmental Science,BM25,search_only,19,3,0.3679
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,19,4,0.149
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,20,1,0.4545
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,20,2,12.3609
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,20,3,0.124
+AI for climate prediction,Environmental Science,BM25,search_only,20,4,0.6565
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,21,1,13.7816
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,21,2,0.8063
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,21,3,0.0464
+AI for climate prediction,Environmental Science,BM25,search_only,21,4,0.2783
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,22,1,9.3878
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,22,2,0.4731
+AI for climate prediction,Environmental Science,BM25,search_only,22,3,0.2215
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,22,4,0.0484
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,23,1,8.1402
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,23,2,0.5981
+AI for climate prediction,Environmental Science,BM25,search_only,23,3,0.2863
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,23,4,0.0566
+AI for climate prediction,Environmental Science,BM25,search_only,24,1,0.2987
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,24,2,11.5682
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,24,3,0.1209
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,24,4,0.6365
+AI for climate prediction,Environmental Science,BM25,search_only,25,1,0.3727
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,25,2,0.1366
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,25,3,0.3879
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,25,4,8.9765
+AI for climate prediction,Environmental Science,BM25,search_only,26,1,0.4244
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,26,2,0.2501
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,26,3,8.5347
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,26,4,0.0352
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,27,1,8.8233
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,27,2,0.6085
+AI for climate prediction,Environmental Science,BM25,search_only,27,3,0.2752
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,27,4,0.0598
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,28,1,8.6837
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,28,2,0.0351
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,28,3,0.5776
+AI for climate prediction,Environmental Science,BM25,search_only,28,4,0.273
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,29,1,0.2571
+AI for climate prediction,Environmental Science,BM25,search_only,29,2,0.2363
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,29,3,0.0538
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,29,4,8.8125
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,30,1,10.9383
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,30,2,0.7214
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,30,3,0.0807
+AI for climate prediction,Environmental Science,BM25,search_only,30,4,0.2581
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,31,1,0.0313
+AI for climate prediction,Environmental Science,BM25,search_only,31,2,0.2924
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,31,3,9.0768
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,31,4,0.546
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,32,1,0.2664
+AI for climate prediction,Environmental Science,BM25,search_only,32,2,0.2234
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,32,3,9.1282
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,32,4,0.0375
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,33,1,0.6232
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,33,2,0.0521
+AI for climate prediction,Environmental Science,BM25,search_only,33,3,0.3341
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,33,4,8.9865
+AI for climate prediction,Environmental Science,BM25,search_only,34,1,0.5742
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,34,2,0.0583
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,34,3,8.8202
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,34,4,0.5738
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,35,1,8.9288
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,35,2,0.0351
+AI for climate prediction,Environmental Science,BM25,search_only,35,3,0.5621
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,35,4,0.2855
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,36,1,0.0511
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,36,2,0.2671
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,36,3,9.0951
+AI for climate prediction,Environmental Science,BM25,search_only,36,4,0.6653
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,37,1,12.9265
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,37,2,0.6032
+AI for climate prediction,Environmental Science,BM25,search_only,37,3,0.2806
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,37,4,0.0587
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,38,1,0.0284
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,38,2,0.3109
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,38,3,11.9715
+AI for climate prediction,Environmental Science,BM25,search_only,38,4,0.6903
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,39,1,0.1405
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,39,2,13.1751
+AI for climate prediction,Environmental Science,BM25,search_only,39,3,0.6884
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,39,4,0.3756
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,40,1,0.3427
+AI for climate prediction,Environmental Science,BM25,search_only,40,2,0.3382
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,40,3,0.1548
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,40,4,18.3355
+AI for climate prediction,Environmental Science,BM25,search_only,41,1,0.6504
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,41,2,10.1256
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,41,3,0.0266
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,41,4,0.5318
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,42,1,11.3794
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,42,2,0.0834
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,42,3,0.6039
+AI for climate prediction,Environmental Science,BM25,search_only,42,4,0.2741
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,43,1,0.2574
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,43,2,0.0637
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,43,3,8.5316
+AI for climate prediction,Environmental Science,BM25,search_only,43,4,0.5756
+AI for climate prediction,Environmental Science,BM25,search_only,44,1,0.2806
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,44,2,0.2723
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,44,3,0.0558
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,44,4,8.3922
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,45,1,0.5607
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,45,2,10.2207
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,45,3,0.0296
+AI for climate prediction,Environmental Science,BM25,search_only,45,4,0.563
+AI for climate prediction,Environmental Science,BM25,search_only,46,1,0.2779
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,46,2,0.2545
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,46,3,8.2678
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,46,4,0.0356
+AI for climate prediction,Environmental Science,BM25,search_only,47,1,0.7218
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,47,2,12.286
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,47,3,0.1258
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,47,4,0.6273
+AI for climate prediction,Environmental Science,BM25,search_only,48,1,0.2566
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,48,2,7.5917
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,48,3,0.5292
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,48,4,0.052
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,49,1,0.022
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,49,2,8.3098
+AI for climate prediction,Environmental Science,BM25,search_only,49,3,0.5346
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,49,4,0.2722
+AI for climate prediction,Environmental Science,BM25,search_only,50,1,0.2276
+AI for climate prediction,Environmental Science,Semantic_FAISS,end_to_end_query,50,2,8.0925
+AI for climate prediction,Environmental Science,BM25,end_to_end_query,50,3,0.5448
+AI for climate prediction,Environmental Science,Semantic_FAISS,search_only,50,4,0.0507
